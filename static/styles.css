@@ -1,0 +1,122 @@
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes pulse-blue {
+
+    0%,
+    100% {
+        box-shadow: 0 0 20px rgba(30, 64, 175, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 0 40px rgba(30, 64, 175, 0.6);
+    }
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes data-flow {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+}
+
+.blue-gradient {
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #1d4ed8 100%);
+}
+
+.card-hover {
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.nav-link {
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 50%;
+    background: #1e40af;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.ai-network {
+    background-image:
+        radial-gradient(circle at 20% 50%, rgba(30, 64, 175, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 80%, rgba(30, 64, 175, 0.1) 0%, transparent 50%);
+}
+
+.timeline-line {
+    background: linear-gradient(to bottom, #1e40af, rgba(30, 64, 175, 0.3));
+}
+
+.data-particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #3b82f6;
+    border-radius: 50%;
+    animation: data-flow 8s linear infinite;
+}
+
+.data-particle:nth-child(2) {
+    animation-delay: 2s;
+    top: 30%;
+}
+
+.data-particle:nth-child(3) {
+    animation-delay: 4s;
+    top: 60%;
+}
+
+.data-particle:nth-child(4) {
+    animation-delay: 6s;
+    top: 80%;
+}
+
+.absolute.inset-0.animate-slide-up {
+    background: rgba(0, 0, 0, 0.35);
+}

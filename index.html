@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Analyze - Precision Insights. Powered by AI. Built for Trust.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body class="font-body bg-white text-gray-900 overflow-x-hidden">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <div class="w-12 h-12 blue-gradient rounded-xl flex items-center justify-center mr-4 shadow-lg">
+                            <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="text-2xl font-heading font-bold text-navy">AI Analyze</span>
+                            <div class="text-xs text-blue-primary font-medium">AIA TOKEN</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#about" class="nav-link text-gray-700 font-medium hover:text-navy">About</a>
+                        <a href="#roadmap" class="nav-link text-gray-700 font-medium hover:text-navy">Roadmap</a>
+                        <a href="#utility" class="nav-link text-gray-700 font-medium hover:text-navy">Token Utility</a>
+                        <a href="#security" class="nav-link text-gray-700 font-medium hover:text-navy">Security</a>
+                        <a href="#team" class="nav-link text-gray-700 font-medium hover:text-navy">Team</a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button class="text-gray-700 font-medium hover:text-navy transition-colors">View Whitepaper</button>
+                    <button class="blue-gradient text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 animate-pulse-blue">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-20 pb-16 gradient-bg ai-network relative overflow-hidden" style="background-image:url('./static/hero-image.jpg');background-size:cover;">
+        <!-- Animated Data Flow -->
+        <div class="absolute inset-0 overflow-hidden">
+            <div class="data-particle" style="top: 20%;"></div>
+            <div class="data-particle" style="top: 30%;"></div>
+            <div class="data-particle" style="top: 60%;"></div>
+            <div class="data-particle" style="top: 80%;"></div>
+        </div>
+        
+        <!-- Floating Network Nodes -->
+        <div class="absolute inset-0">
+            <div class="absolute top-20 left-10 w-2 h-2 bg-blue-light rounded-full animate-float"></div>
+            <div class="absolute top-40 right-20 w-3 h-3 bg-blue-primary rounded-full animate-float" style="animation-delay: 1s;"></div>
+            <div class="absolute bottom-40 left-1/4 w-2 h-2 bg-blue-light rounded-full animate-float" style="animation-delay: 2s;"></div>
+            <div class="absolute bottom-20 right-1/3 w-3 h-3 bg-blue-primary rounded-full animate-float" style="animation-delay: 0.5s;"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="animate-slide-up">
+                    <div class="inline-flex items-center bg-blue-primary/10 border border-blue-primary/30 rounded-full px-4 py-2 mb-8">
+                        <span class="w-2 h-2 bg-blue-primary rounded-full mr-2 animate-pulse"></span>
+                        <span class="text-blue-primary font-medium text-sm">DIRECT DISTRIBUTION LIVE</span>
+                    </div>
+                    
+                    <h1 class="text-5xl lg:text-7xl font-heading font-bold text-white mb-6 leading-tight">
+                        AI Analyze —
+                        <span class="text-blue-light">Precision Insights.</span>
+                        <span class="block text-blue-light">Powered by AI.</span>
+                        <span class="block text-blue-light">Built for Trust.</span>
+                    </h1>
+                    <p class="text-xl text-gray-300 mb-8 leading-relaxed max-w-lg">
+                        Unlock the future of data-driven decision making with AI-powered analytics. 
+                        Secure, transparent, and designed for professionals who demand accuracy without compromise.
+                    </p>
+                    
+                    <!-- Trust Indicators -->
+                    <div class="flex items-center space-x-6 mb-10">
+                        <div class="flex items-center space-x-2">
+                            <svg class="w-5 h-5 text-blue-light" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                            </svg>
+                            <span class="text-gray-300 text-sm font-medium">Enterprise-Grade Security</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <svg class="w-5 h-5 text-blue-light" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2z"/>
+                            </svg>
+                            <span class="text-gray-300 text-sm font-medium">Audited Smart Contracts</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <svg class="w-5 h-5 text-blue-light" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span class="text-gray-300 text-sm font-medium">150% Lock Guarantee</span>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mb-8">
+                        <button class="blue-gradient text-white px-8 py-4 rounded-xl font-heading font-semibold text-lg hover:shadow-2xl transition-all duration-300 animate-pulse-blue">
+                            Get Started
+                        </button>
+                        <button class="border-2 border-blue-light text-blue-light px-8 py-4 rounded-xl font-heading font-semibold text-lg hover:bg-blue-light hover:text-white transition-all duration-300">
+                            View Whitepaper
+                        </button>
+                    </div>
+                    
+                    <p class="text-steel-light text-sm">
+                        Direct token distribution, no presale, no hype. Just real utility from day one.
+                    </p>
+                </div>
+
+                <!-- Animated Dashboard Preview -->
+                <div class="relative animate-slide-up" style="animation-delay: 0.3s;">
+                    <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20 shadow-2xl">
+                        <div class="flex items-center justify-between mb-6">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-3 h-3 bg-red-400 rounded-full"></div>
+                                <div class="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                                <div class="w-3 h-3 bg-green-400 rounded-full"></div>
+                            </div>
+                            <span class="text-white/60 text-sm">AI Analytics Dashboard</span>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <div class="grid grid-cols-3 gap-4">
+                                <div class="bg-white/5 p-4 rounded-xl text-center">
+                                    <div class="text-2xl font-bold text-blue-light">99.2%</div>
+                                    <div class="text-white/60 text-xs">Accuracy</div>
+                                </div>
+                                <div class="bg-white/5 p-4 rounded-xl text-center">
+                                    <div class="text-2xl font-bold text-blue-light">24/7</div>
+                                    <div class="text-white/60 text-xs">Active</div>
+                                </div>
+                                <div class="bg-white/5 p-4 rounded-xl text-center">
+                                    <div class="text-2xl font-bold text-blue-light">Real-time</div>
+                                    <div class="text-white/60 text-xs">Analysis</div>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white/5 rounded-xl p-4">
+                                <div class="flex justify-between items-center mb-3">
+                                    <span class="text-white font-medium text-sm">AI Performance Metrics</span>
+                                    <span class="text-blue-light text-sm">+12.8%</span>
+                                </div>
+                                <div class="space-y-2">
+                                    <div class="bg-white/10 h-2 rounded-full overflow-hidden">
+                                        <div class="bg-blue-light h-full rounded-full animate-pulse" style="width: 92%"></div>
+                                    </div>
+                                    <div class="bg-white/10 h-2 rounded-full overflow-hidden">
+                                        <div class="bg-blue-primary h-full rounded-full animate-pulse" style="width: 87%; animation-delay: 0.5s;"></div>
+                                    </div>
+                                    <div class="bg-white/10 h-2 rounded-full overflow-hidden">
+                                        <div class="bg-blue-light h-full rounded-full animate-pulse" style="width: 95%; animation-delay: 1s;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About AI Analyze -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-heading font-bold text-navy mb-6">About AI Analyze</h2>
+                <p class="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                    AI Analyze delivers enterprise-grade AI analytics through a decentralized token ecosystem, 
+                    providing institutional-quality insights with unprecedented accuracy and real-time processing capabilities.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8 mb-16">
+                <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                    <div class="w-16 h-16 blue-gradient rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-navy mb-4">Advanced AI Intelligence</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Proprietary machine learning algorithms process vast datasets to deliver 99.2% accuracy 
+                        in market predictions and trend analysis.
+                    </p>
+                </div>
+
+                <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                    <div class="w-16 h-16 blue-gradient rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-navy mb-4">Enterprise Security</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Bank-grade encryption, multi-layer security protocols, and comprehensive audit trails 
+                        ensure your data and investments remain protected.
+                    </p>
+                </div>
+
+                <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                    <div class="w-16 h-16 blue-gradient rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-navy mb-4">Real-Time Processing</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Instantaneous data processing and analysis delivery, enabling rapid decision-making 
+                        in fast-moving markets and dynamic environments.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Key Metrics -->
+            <div class="bg-gradient-to-r from-navy to-navy-light rounded-3xl p-12 text-white">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl font-heading font-bold mb-4">Platform Performance</h3>
+                    <p class="text-gray-300">Real-time analytics and performance indicators</p>
+                </div>
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-blue-light mb-2">$100M+</div>
+                        <div class="text-gray-300">Assets Under Analysis</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-blue-light mb-2">99.2%</div>
+                        <div class="text-gray-300">Prediction Accuracy</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-blue-light mb-2">50K+</div>
+                        <div class="text-gray-300">Professional Users</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-blue-light mb-2">&lt;100ms</div>
+                        <div class="text-gray-300">Response Time</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-heading font-bold text-navy mb-6">Development Roadmap</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Our strategic path to building the world's first integrated Social + AI Analytics Ecosystem
+                </p>
+            </div>
+
+            <div class="relative">
+                <!-- Timeline Line -->
+                <div class="absolute left-1/2 transform -translate-x-1/2 w-1 h-full timeline-line rounded-full"></div>
+
+                <!-- Phase 1 -->
+                <div class="relative flex items-center mb-16">
+                    <div class="w-1/2 pr-8 text-right">
+                        <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border border-gray-200">
+                            <div class="inline-flex items-center bg-blue-primary/10 text-blue-primary px-3 py-1 rounded-full text-sm font-medium mb-4">
+                                Phase 1 • 2026
+                            </div>
+                            <h3 class="text-2xl font-heading font-bold text-navy mb-4">Launch Foundation</h3>
+                            <ul class="text-gray-600 space-y-2 text-left">
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>Token launch & website release</li>
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>Initial community building</li>
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>Full direct distribution (no presale)</li>
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>1-year lock with 150% guarantee</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-blue-primary rounded-full border-4 border-white shadow-lg"></div>
+                    <div class="w-1/2 pl-8"></div>
+                </div>
+
+                <!-- Phase 2 -->
+                <div class="relative flex items-center mb-16">
+                    <div class="w-1/2 pr-8"></div>
+                    <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-blue-primary rounded-full border-4 border-white shadow-lg"></div>
+                    <div class="w-1/2 pl-8">
+                        <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border border-gray-200">
+                            <div class="inline-flex items-center bg-blue-primary/10 text-blue-primary px-3 py-1 rounded-full text-sm font-medium mb-4">
+                                Phase 2 • 2026
+                            </div>
+                            <h3 class="text-2xl font-heading font-bold text-navy mb-4">Core Platform</h3>
+                            <ul class="text-gray-600 space-y-2">
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>User-submitted analyses</li>
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>AI-driven ranking system</li>
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>Platform integration</li>
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>Community governance launch</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phase 3 -->
+                <div class="relative flex items-center mb-16">
+                    <div class="w-1/2 pr-8 text-right">
+                        <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border border-gray-200">
+                            <div class="inline-flex items-center bg-blue-primary/10 text-blue-primary px-3 py-1 rounded-full text-sm font-medium mb-4">
+                                Phase 3 • 2027
+                            </div>
+                            <h3 class="text-2xl font-heading font-bold text-navy mb-4">Expansion</h3>
+                            <ul class="text-gray-600 space-y-2 text-left">
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>Token-based rewards system</li>
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>VIP access to premium analyses</li>
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>Mobile app for analysts</li>
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>Advanced staking features</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-blue-primary rounded-full border-4 border-white shadow-lg"></div>
+                    <div class="w-1/2 pl-8"></div>
+                </div>
+
+                <!-- Phase 4 -->
+                <div class="relative flex items-center mb-16">
+                    <div class="w-1/2 pr-8"></div>
+                    <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-blue-primary rounded-full border-4 border-white shadow-lg"></div>
+                    <div class="w-1/2 pl-8">
+                        <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border border-gray-200">
+                            <div class="inline-flex items-center bg-blue-primary/10 text-blue-primary px-3 py-1 rounded-full text-sm font-medium mb-4">
+                                Phase 4 • 2027
+                            </div>
+                            <h3 class="text-2xl font-heading font-bold text-navy mb-4">Globalization</h3>
+                            <ul class="text-gray-600 space-y-2">
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>Multi-market expansion (stocks, forex)</li>
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>International partnerships</li>
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>Major exchange listings</li>
+                                <li class="flex items-center"><span class="w-2 h-2 bg-blue-primary rounded-full mr-3"></span>Institutional adoption</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Final Goal -->
+                <div class="relative flex items-center">
+                    <div class="w-full">
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-8 h-8 bg-blue-primary rounded-full border-4 border-white shadow-xl animate-pulse-blue"></div>
+                        <div class="bg-gradient-to-r from-blue-primary to-blue-dark p-8 rounded-2xl shadow-2xl text-white text-center mt-8">
+                            <div class="inline-flex items-center bg-white/20 text-white px-4 py-2 rounded-full text-sm font-medium mb-4">
+                                🎯 Final Goal • 2027
+                            </div>
+                            <h3 class="text-3xl font-heading font-bold mb-4">Integrated Social + AI Analytics Ecosystem</h3>
+                            <p class="text-lg opacity-90">
+                                The world's first comprehensive platform combining social intelligence with AI-powered analytics, 
+                                revolutionizing how professionals make data-driven decisions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Token Utility & Benefits -->
+    <section id="utility" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-heading font-bold text-navy mb-6">Token Utility & Benefits</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    AIA tokens provide exclusive access to premium features, governance rights, and guaranteed returns
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+                <div>
+                    <div class="space-y-8">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 blue-gradient rounded-xl flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-heading font-semibold text-navy mb-2">Staking Rewards</h3>
+                                <p class="text-gray-600">Earn up to 150% guaranteed returns with our 1-year lock program. Higher APY for longer commitment periods.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 blue-gradient rounded-xl flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-heading font-semibold text-navy mb-2">Governance Rights</h3>
+                                <p class="text-gray-600">Vote on platform upgrades, feature development, and strategic decisions. Shape the future of AI analytics.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 blue-gradient rounded-xl flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-heading font-semibold text-navy mb-2">Premium Access</h3>
+                                <p class="text-gray-600">Exclusive access to advanced AI models, priority analysis, and VIP community features.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 blue-gradient rounded-xl flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-heading font-semibold text-navy mb-2">Discounted Fees</h3>
+                                <p class="text-gray-600">Reduce platform fees by up to 50% when paying with AIA tokens. More tokens = bigger discounts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-br from-navy to-navy-light p-8 rounded-3xl text-white">
+                    <h3 class="text-2xl font-heading font-bold mb-6 text-center">Token Economics</h3>
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-center border-b border-white/20 pb-3">
+                            <span class="text-gray-300">Total Supply</span>
+                            <span class="font-bold text-blue-light">1,000,000,000 AIA</span>
+                        </div>
+                        <div class="flex justify-between items-center border-b border-white/20 pb-3">
+                            <span class="text-gray-300">Direct Distribution</span>
+                            <span class="font-bold text-blue-light">100% (1B AIA)</span>
+                        </div>
+                        <div class="flex justify-between items-center border-b border-white/20 pb-3">
+                            <span class="text-gray-300">Staking Rewards</span>
+                            <span class="font-bold text-blue-light">25% (250M AIA)</span>
+                        </div>
+                        <div class="flex justify-between items-center border-b border-white/20 pb-3">
+                            <span class="text-gray-300">Team & Advisors</span>
+                            <span class="font-bold text-blue-light">15% (150M AIA)</span>
+                        </div>
+                        <div class="flex justify-between items-center border-b border-white/20 pb-3">
+                            <span class="text-gray-300">Development</span>
+                            <span class="font-bold text-blue-light">35% (350M AIA)</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">Community & Partnerships</span>
+                            <span class="font-bold text-blue-light">25% (250M AIA)</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8 p-4 bg-blue-primary/10 rounded-xl border border-blue-primary/30">
+                        <div class="text-center">
+                            <div class="text-sm text-blue-light mb-1">Distribution Price</div>
+                            <div class="text-2xl font-bold text-blue-light">$0.10 USD</div>
+                            <div class="text-xs text-gray-300 mt-1">Direct access, no presale</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security & Trust -->
+    <section id="security" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-heading font-bold text-navy mb-6">Security & Compliance</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Built with enterprise-grade security and compliance standards to protect your investments
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                <div class="text-center">
+                    <div class="w-20 h-20 blue-gradient rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading font-semibold text-navy mb-2">Smart Contract Audit</h3>
+                    <p class="text-gray-600 text-sm">Audited by leading security firms</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 blue-gradient rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading font-semibold text-navy mb-2">KYC Verified</h3>
+                    <p class="text-gray-600 text-sm">Team identity verified by third parties</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 blue-gradient rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading font-semibold text-navy mb-2">Multi-Sig Wallet</h3>
+                    <p class="text-gray-600 text-sm">Enhanced security for fund management</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 blue-gradient rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading font-semibold text-navy mb-2">Legal Compliance</h3>
+                    <p class="text-gray-600 text-sm">Regulatory compliant in major jurisdictions</p>
+                </div>
+            </div>
+
+            <!-- Security Features -->
+            <div class="bg-white rounded-3xl p-12 shadow-xl">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-3xl font-heading font-bold text-navy mb-6">Enterprise Security Measures</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-5 h-5 text-blue-primary" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                </svg>
+                                <span class="text-gray-700">End-to-end encryption for all transactions</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-5 h-5 text-blue-primary" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                </svg>
+                                <span class="text-gray-700">Regular security audits and penetration testing</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-5 h-5 text-blue-primary" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                </svg>
+                                <span class="text-gray-700">Cold storage for 95% of funds</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-5 h-5 text-blue-primary" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                </svg>
+                                <span class="text-gray-700">24/7 monitoring and incident response</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <svg class="w-5 h-5 text-blue-primary" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                </svg>
+                                <span class="text-gray-700">Insurance coverage for digital assets</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-gradient-to-br from-navy to-navy-light p-8 rounded-2xl text-white">
+                            <h4 class="text-xl font-heading font-semibold mb-4">Security Score</h4>
+                            <div class="text-6xl font-bold text-blue-light mb-2">A+</div>
+                            <p class="text-gray-300 text-sm">Rated by leading security firms</p>
+                            <div class="mt-6 space-y-2">
+                                <div class="flex justify-between text-sm">
+                                    <span>Smart Contract</span>
+                                    <span class="text-blue-light">100%</span>
+                                </div>
+                                <div class="flex justify-between text-sm">
+                                    <span>Team Verification</span>
+                                    <span class="text-blue-light">100%</span>
+                                </div>
+                                <div class="flex justify-between text-sm">
+                                    <span>Fund Security</span>
+                                    <span class="text-blue-light">100%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team & Advisors -->
+    <section id="team" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-heading font-bold text-navy mb-6">Leadership Team</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Experienced professionals from leading tech companies and financial institutions
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                <!-- Team Member 1 -->
+                <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border border-gray-100 text-center">
+                    <div class="w-24 h-24 bg-gradient-to-br from-blue-primary to-blue-dark rounded-full mx-auto mb-6 flex items-center justify-center">
+                        <span class="text-white font-bold text-2xl">DR</span>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-navy mb-2">Dr. Rachel Kim</h3>
+                    <p class="text-blue-primary font-medium mb-3">CEO & Founder</p>
+                    <p class="text-gray-600 text-sm mb-4">Former VP of AI at Microsoft. PhD in Machine Learning from MIT. 20+ years in enterprise AI.</p>
+                    <div class="flex justify-center space-x-3">
+                        <!-- <a href="#" class="text-gray-400 hover:text-blue-primary transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-primary transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a> -->
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border border-gray-100 text-center">
+                    <div class="w-24 h-24 bg-gradient-to-br from-blue-primary to-blue-dark rounded-full mx-auto mb-6 flex items-center justify-center">
+                        <span class="text-white font-bold text-2xl">AS</span>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-navy mb-2">Alex Singh</h3>
+                    <p class="text-blue-primary font-medium mb-3">CTO</p>
+                    <p class="text-gray-600 text-sm mb-4">Ex-Google DeepMind researcher. PhD in Computer Science from Stanford. Blockchain architecture expert.</p>
+                    <div class="flex justify-center space-x-3">
+                        <a href="#" class="text-gray-400 hover:text-blue-primary transition-colors">
+                            <!-- <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-primary transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg> -->
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="card-hover bg-white p-8 rounded-2xl shadow-lg border border-gray-100 text-center">
+                    <div class="w-24 h-24 bg-gradient-to-br from-blue-primary to-blue-dark rounded-full mx-auto mb-6 flex items-center justify-center">
+                        <span class="text-white font-bold text-2xl">MW</span>
+                    </div>
+                    <h3 class="text-xl font-heading font-semibold text-navy mb-2">Michael Wong</h3>
+                    <p class="text-blue-primary font-medium mb-3">CFO</p>
+                    <p class="text-gray-600 text-sm mb-4">Former Goldman Sachs Managing Director. CFA with 25+ years in institutional finance and risk management.</p>
+                    <div class="flex justify-center space-x-3">
+                        <a href="#" class="text-gray-400 hover:text-blue-primary transition-colors">
+                            <!-- <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-primary transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Advisory Board -->
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-heading font-bold text-navy mb-6">Advisory Board</h3>
+                <div class="grid md:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-steel-light rounded-full mx-auto mb-3 flex items-center justify-center">
+                            <span class="text-white font-bold">DT</span>
+                        </div>
+                        <div class="font-semibold text-navy text-sm">Dr. David Thompson</div>
+                        <div class="text-blue-primary text-xs">AI Research Director</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-steel-light rounded-full mx-auto mb-3 flex items-center justify-center">
+                            <span class="text-white font-bold">SL</span>
+                        </div>
+                        <div class="font-semibold text-navy text-sm">Sarah Liu</div>
+                        <div class="text-blue-primary text-xs">Blockchain Consultant</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-steel-light rounded-full mx-auto mb-3 flex items-center justify-center">
+                            <span class="text-white font-bold">JM</span>
+                        </div>
+                        <div class="font-semibold text-navy text-sm">James Miller</div>
+                        <div class="text-blue-primary text-xs">Regulatory Expert</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-steel-light rounded-full mx-auto mb-3 flex items-center justify-center">
+                            <span class="text-white font-bold">EP</span>
+                        </div>
+                        <div class="font-semibold text-navy text-sm">Elena Petrov</div>
+                        <div class="text-blue-primary text-xs">Strategy Advisor</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 gradient-bg">
+        <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl lg:text-5xl font-heading font-bold text-white mb-6">
+                Join the Future of AI Analytics
+            </h2>
+            <p class="text-xl text-gray-300 mb-10 leading-relaxed">
+                Experience enterprise-grade AI analytics with transparent token distribution. 
+                No presale, no hype—just proven technology and guaranteed returns for serious investors.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-8">
+                <button class="blue-gradient text-white px-10 py-5 rounded-xl font-heading font-bold text-xl hover:shadow-2xl transition-all duration-300 animate-pulse-blue">
+                    Get Started
+                </button>
+                <button class="border-2 border-blue-light text-blue-light px-10 py-5 rounded-xl font-heading font-bold text-xl hover:bg-blue-light hover:text-white transition-all duration-300">
+                    Join Community
+                </button>
+            </div>
+            
+            <div class="flex justify-center items-center space-x-8 text-gray-400 text-sm">
+                <div class="flex items-center space-x-2">
+                    <svg class="w-4 h-4 text-blue-light" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                    </svg>
+                    <span>150% Guaranteed Return</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <svg class="w-4 h-4 text-blue-light" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                    </svg>
+                    <span>Enterprise Security</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <svg class="w-4 h-4 text-blue-light" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                    </svg>
+                    <span>Direct Distribution</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 blue-gradient rounded-xl flex items-center justify-center mr-4">
+                            <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="text-xl font-heading font-bold">AI Analyze</span>
+                            <div class="text-xs text-blue-light">AIA TOKEN</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        Enterprise-grade AI analytics for the decentralized future. 
+                        Precision insights, powered by AI, built for trust.
+                    </p>
+                    <div class="flex space-x-4">
+                        <!-- <a href="#" class="text-gray-400 hover:text-blue-light transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a> -->
+                        <a href="#" class="text-gray-400 hover:text-blue-light transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-light transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24c6.624 0 11.99-5.367 11.99-11.013C24.007 5.367 18.641.001 12.017.001z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-light transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.0960V13.0956Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-heading font-semibold mb-4 text-blue-light">Platform</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-white transition-colors">AI Analytics</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Token Staking</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Governance</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">API Access</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Mobile App</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-heading font-semibold mb-4 text-blue-light">Resources</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-white transition-colors">Whitepaper</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Documentation</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Research</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Help Center</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Community</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-heading font-semibold mb-4 text-blue-light">Company</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Press Kit</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Legal</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="text-gray-400 text-sm mb-4 md:mb-0">
+                        © 2024 AI Analyze. All rights reserved.
+                    </div>
+                    <div class="flex space-x-6 text-sm text-gray-400">
+                        <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                        <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                        <a href="#" class="hover:text-white transition-colors">Risk Disclosure</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="./static/scripts.js"></script>
+</body>
+</html>
