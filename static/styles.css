@@ -120,3 +120,41 @@
 .absolute.inset-0.animate-slide-up {
     background: rgba(0, 0, 0, 0.35);
 }
+/* مثال تعریف انیمیشن‌ها در styles.css */
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-slide-up {
+    animation: slide-up 0.8s ease-out forwards; /* 'forwards' is crucial to keep the final state */
+}
+
+/* و همچنین keyframe های float و pulse-blue و data-flow */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+/* در بخش keyframes موجود در CSS خود اضافه کنید */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeInUp {
+    animation: fadeInUp 0.3s ease-out forwards;
+    opacity: 0; /* مطمئن می‌شویم قبل از اجرا، مخفی باشد */
+}
